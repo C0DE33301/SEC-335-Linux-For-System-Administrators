@@ -1,0 +1,75 @@
+# Lesson-1-Exploring-Linux-Command-Line-Tools Notes
+- 1.1 Understanding Command-Line Basics
+    - [Reaching a Shell](#reaching-a-shell)
+    - [Exploring your Linux Shell Options](#exploring-your-linux-shell-options)
+    - [Using a Shell](#using-a-shell)
+    - [Using Environment Variables](#using-environment-variables)
+    - [Getting Help](#getting-help)
+- 1.2 ...
+
+## 1.1 Understanding Command-Line Basics
+### Reaching a Shell
+|Tele Type Writer||
+|---|---|
+|**tty1 terminal**|`Ctrl+Alt+F1`|
+|**tty2 terminal**|`Ctrl+Alt+F2`|
+|**tty3 terminal**|`Ctrl+Alt+F3`|
+|**tty4 terminal**|`Ctrl+Alt+F4`|
+|**tty5 terminal**|`Ctrl+Alt+F5`|
+|**tty6 terminal**|`Ctrl+Alt+F6`|
+### Exploring your Linux Shell Options
+- `GNU Bourne Again Shell (Bash)` - A replacement for the standard Unix operating system shell, called the bourne shell.
+- `The Debian Almquist Shell (Dash)`
+- `KornShell`
+- `tcsh`
+- `Z Shell`
+
+**/bin/sh**
+- **Unix systems**, you would find the Bourne Shell installed here.
+- **Linux systems**, is now a symbolic link, the file points to the current shell.
+- To check your current shell, `readlink /bin/sh`, `echo $SHELL`
+- Show the current version of the Bash shell, `echo $BASH_VERSION` environment variable
+
+|The `uname` command||
+|---|---|
+|`uname`|The kernel's name|
+|`uname -r`|The current kernel's version, called the revision.|
+|`uname -a`|All system information|
+### Using a Shell
+|**Shell quoting**||
+|---|---|
+|**Metacharacters**|`* ? [ ] ' " \ $ ; & ( ) \| ^ < >`|
+|**A variable name**, `$`|`echo $SHELL`|
+|**As regular characters**, `\`|"echo cat\\'s Hello\\? cost \\$1" -> `cat's Hello? cost $1`|
+|**Single or double quotation marks**, `'` or `"`|echo "cat's Hello? cost $1" -> `cat's Hello? cost $1`|
+
+- **Absolute directory references**, Always begin with a forward slash `/`
+- **Relative directory references**, Within the current dir
+
+**Internal and External Commands**
+- **Internal**, Built-in commands.
+- **External**, Not part of the shell.
+- To check if the command is internal or external with the `type` command.
+### Using Environment Variables
+- Display a complete list of active environment variables available, `set`
+- `which` utility, searches the PATH, If it locates the program, it displays its absolute directory reference.
+- `subshell` or `child shell` created when running certin tasks, for example running a shell script or particular commands.
+- `$SHLVL` environment variable
+    - `1` Not in a subshell
+    - **Higher numbers** are subshell
+- `export`
+- `unset` To reverse any modifications made for the variable.
+### Getting Help
+- `man -k passwd` To search  for **keywords**
+- The man pages have 9 sections
+- To view a specific section page
+    - `man -S 5 passwd`
+    - `man -s 5 passwd`
+    - `man 5 passwd`
+- `makewhatis`, `mandb'
+- `!3` Recalls a command from the history list, reruns the command.
+- `!!` To rerun the most recent command.
+- `history`
+    - `-a`, appends the current history list commands to the end of the history file.
+    - `-n`, 
+    - `-r`
