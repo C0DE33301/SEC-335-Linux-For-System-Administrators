@@ -2,8 +2,7 @@
 
 ## Textbook
 *LPIC-1 Linux Professional Institute Certification Study Guide: Exam 101-500 and Exam 102-500 5th Edition by Christine Bresnahan and Richard Blum*
-
-## Topic 103: GNU and Unix Commands
+### Topic 103: GNU and Unix Commands
 - Chapter 103.1 - Work on the Command Line 
 - Chapter 103.2 - Process Text Streams Using Filters
 - Chapter 103.4 - Use Streams, Pipes, and Redirects
