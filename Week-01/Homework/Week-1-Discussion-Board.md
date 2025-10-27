@@ -10,19 +10,19 @@ What are the advantages or disadvantages of vi's insert, command, and visual mod
 - When I first started using Vim, I had trouble exiting Vim. That's when in `insert mode`.
 
 **Advantages**
-- Sometimes I forget to use `sudo` when editing root files. That means I can't save my buffer, and I will lose my new data. `:w`, `:w!` won't work, but using `:w! /home/USER/Documents/tempfile.txt` works temporarily. I only use this when saving nonsensitive information btw.
+- Sometimes I forget to use `sudo` when editing root files. That means I can't save my buffer, and I will lose my new data. `:w`, `:w!` won't work, but using `:w! /home/USER/Documents/tempfile.txt` works temporarily. I only use this when saving non-sensitive information, btw.
 
 ## Regular Expressions for File Searching (103.7): 
 ### What challenges have you faced or anticipated when working with regular expressions?
-The only challenge I faced was looking for URLs within html pages. Trying to find URLs that had, ...
+The only challenge I faced was looking for URLs within HTML pages. Trying to find URLs that had, ...
 - File extensions: `.html`, `.json`, & `.png`
 - URL protocols: `https` & `http`, trying to avoid `http` because it's spooky. Always use `https` because it's secure!
-- SRC URLs, URLs that are internal, not external.
+- SRC URLs, internal URLs, not external.
 
 All of that had its own special regular expression.
 
 ### Share an example of a basic regular expression pattern and how it can be used to extract meaningful data from a file.
-I used to do web scraping for fun, for example. grabbing all URLs to download them all with wget instead of clicking the URL one by one.
+I used to do web scraping for fun, for example. Grab all URLs to download them all with wget instead of clicking the URL one by one.
 
 `index.html`
 ```html
