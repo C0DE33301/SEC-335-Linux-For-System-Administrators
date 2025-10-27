@@ -8,7 +8,7 @@ My notes for school
 - [ ] Week 1 Pre-Assessment - **Due Nov 2**
 - [ ] Week 1 Lesson 1 Ebook - **Due Nov 2**
 - [x] Week 1 Lesson 1 Flashcards - **Due Nov 2**
-- [ ] Week 1 Lesson 1 Lab - **Due Nov 2**
+- [x] Week 1 Lesson 1 Lab - **Due Nov 2**
 - [ ] Week 1 Lesson 1 Quiz - **Due Nov 2**
 
 ## Week 2
