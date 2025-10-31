@@ -14,12 +14,12 @@ My notes for school
   - [x] 2 post replies
 ### Week 1 uCertify: Advanced Linux Introduction
 - [ ] Week 1 Pre-Assessment - **Due Nov 2**
-- [ ] Week 1 Lesson 1 Ebook - **Due Nov 2**
+- [x] Week 1 Lesson 1 Ebook - **Due Nov 2**
   - [x] 1.1 Understanding Command-Line Basics
   - [x] 1.2 Editing Text Files
   - [x] 1.3 Processing Text Using Filters
-  - [ ] 1.4 Using Regular Expressions
-  - [ ] 1.5 Using Streams, Redirection, and Pipes
+  - [x] 1.4 Using Regular Expressions
+  - [x] 1.5 Using Streams, Redirection, and Pipes
 - [x] Week 1 Lesson 1 Flashcards - **Due Nov 2**
 - [x] Week 1 Lesson 1 Lab - **Due Nov 2**
 - [ ] Week 1 Lesson 1 Quiz - **Due Nov 2**
