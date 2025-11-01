@@ -36,13 +36,6 @@ My notes for school
   - [ ] 1 post Reply
   - [ ] 2 post replies
 ### Week 2 uCertify: Managing Software and Processes
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
 - [ ] Week 2 Lesson 2 Ebook - Nov 9
   - [ ] 2.1  Looking at Package Concepts
   - [ ] 2.2  Using RPM
