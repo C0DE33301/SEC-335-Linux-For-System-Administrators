@@ -39,7 +39,7 @@ My notes for school
 - [ ] Week 2 Lesson 2 Ebook - Nov 9
   - [x] 2.1  Looking at Package Concepts
   - [x] 2.2  Using RPM
-  - [ ] 2.3  Using Debian Packages
+  - [x] 2.3  Using Debian Packages
   - [ ] 2.4  Managing Shared Libraries
   - [ ] 2.5  Managing Processes
   - [ ] 2.6  Configuring the Firmware and Core Hardware
