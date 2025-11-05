@@ -31,10 +31,10 @@ My notes for school
 |   3 |   4 |   5 |   6 |   7 |   8 |   9 | ***W1***  |
 | 2.7 | 2.8 | 2.9 | 2.10| 2.11| 2.12| 2.13|           |
 
-- [ ] Week 2 Discussion Board **POST** - **Due Nov 9**
-- [ ] Week 2 Discussion Board **2 Replys** - **Due Nov 9**
-  - [ ] 1 post Reply
-  - [ ] 2 post replies
+- [x] Week 2 Discussion Board **POST** - **Due Nov 9**
+- [x] Week 2 Discussion Board **2 Replys** - **Due Nov 9**
+  - [x] 1 post Reply
+  - [x] 2 post replies
 ### Week 2 uCertify: Managing Software and Processes
 - [ ] Week 2 Lesson 2 Ebook - Nov 9
   - [x] 2.1  Looking at Package Concepts
@@ -50,7 +50,7 @@ My notes for school
   - [ ] 2.11  Formatting Filesystems
   - [ ] 2.12  Mounting Filesystems
   - [ ] 2.13  Managing Filesystems
-- [ ] Week 2 Lesson 2 Flashcards - Nov 9
+- [x] Week 2 Lesson 2 Flashcards - Nov 9
 - [ ] Week 2 Lesson 2 Lab - Nov 9
 - [ ] Week 2 Lesson 2 Quiz - Nov 9
 
